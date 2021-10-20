@@ -2,7 +2,7 @@
 A simple search engine built in JAVA capable of building optimised positional index for the Wikipedia dump &amp; perform field queries. The search returns a ranked list of articles in real time.
 
 # Indexing:
-Parsing: SAX Parser is used to parse the XML corpus.
+*Parsing: SAX Parser is used to parse the XML corpus.
 Casefolding: Converting Upper Case to Lower Case.
 Tokenisation: It is done using regex.
 Stop Word Removal: Stop words are removed by referring to the stop word list returned by nltk.
